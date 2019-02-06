@@ -237,7 +237,7 @@ When user hovers over an employees name:
                 for (let i = 0; i < node.children.length; i++) {
                 walkTheDOM(node.children[i], func);
                 }
-            }
+            }/
             func(node);
         }
         walkTheDOM(document.getElementsByTagName('html')[0], console.log);
